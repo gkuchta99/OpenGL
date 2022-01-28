@@ -8,7 +8,7 @@ from glfw.GLFW import *
 from OpenGL.GL import *
 from OpenGL.GLU import *
 
-N = 10
+N = 50
 points = [[[0 for _ in range(3)] for _ in range(N)] for _ in range(N)]
 u_values_list = list()
 v_values_list = list()
